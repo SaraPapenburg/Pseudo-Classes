@@ -1,0 +1,36 @@
+.inline li {
+    display: inline-block;
+    padding:8px;
+}
+nav{
+    background-color: darkblue;
+}
+ul {
+    margin: 0;
+    padding: 0;  
+}
+.currentPage{
+    background-color: violet;
+}
+.hover:hover{
+color: blue;
+font-weight: bold;
+}
+.activated:active{
+color: red;
+font-family: cursive;
+}
+.visited:visited{
+color: yellow;
+}
+.focus:focus{
+    color: green;
+    border: 20px solid green;
+}
+.inline :hover{
+    color: lightblue;
+}
+.focustwo:focus{
+    border: 10px solid aquamarine;
+}
+
